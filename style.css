@@ -1,0 +1,47 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+section {
+    padding-left: 20px;
+    position: relative;
+    top: -27px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+}
+
+li:last-child {
+    border-right: none
+}
+
+li {
+    display: inline;
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.blue {
+    background-color: #4ca0b5;
+    height: 100px;
+}
+
+.container {
+    width: 50%;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
